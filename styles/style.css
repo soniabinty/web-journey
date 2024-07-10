@@ -176,3 +176,40 @@ justify-content: center;
 align-items: center;
 margin-left: 30px;
 }
+/* inspire-part */
+
+.inspire-container{
+     width: 1140px;
+height: 777px;
+margin: 0 auto;
+margin-top: 60px;
+}
+.inspire-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 852px;
+height: 115px;
+display: flex;
+margin: 0 auto;}
+.inspire-content h1{
+    font-size: 32px;
+    margin-top: 15px;  
+}
+.inspire-content p{
+    font-size: 16px;
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
+    margin: 24px 0px;
+}
+.inspire-video
+{
+   display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px;
+}
