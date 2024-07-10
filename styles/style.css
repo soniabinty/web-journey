@@ -210,6 +210,85 @@ margin: 0 auto;}
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin: 0 auto;
+    margin: 10px;
+    padding: 18px;
     margin-top: 50px;
+    box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.2);
+border-radius: 16px;
+
 }
+/* target-section */
+.target-container{
+ width: 1140px;
+height: 463px;
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+margin: 0 auto;
+margin-top: 70px;}
+.target-head{
+    width: 852px;
+height: 115px;
+padding: 0px;
+justify-content: center;
+text-align: center;
+align-items: center;
+
+
+}
+.target-head h1
+{
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.target-head p{
+    font-size: 16px;
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
+}
+
+.target-context{
+   display: flex;width: 1140px;
+    height: 300px;
+justify-content: space-between;
+flex-direction: row;
+align-items: center;
+
+margin-top: 50px;
+}
+.box-one {
+    width: 364px;
+height: 300px;
+border-radius: 16px;
+background: rgba(255, 76, 30, 0.05);
+padding: 40px;
+text-align: start;
+
+
+}
+.box-two{
+    width: 364px;
+height: 300px;
+border-radius: 16px;
+background:
+rgba(0, 76, 232, 0.05);
+padding: 40px;
+text-align: start;
+
+}
+.target-context h1
+{
+ margin: 15px;
+}
+.target-context p{
+    margin: 15px;
+}
+.target-context h4
+{
+    margin: 15px;}
+     .target-context img
+{
+ margin-left: 10px;}
